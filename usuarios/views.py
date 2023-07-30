@@ -38,3 +38,7 @@ def crear_usuario(request):
 class UsuarioListView(ListView):
     model = Usuario
     template_name = 'usuario_list.html'  # Reemplaza 'usuario_list.html' con el nombre de tu plantilla para mostrar la lista de usuarios
+
+class UsuarioListarView(ListView):
+    model = Usuario
+    template_name = 'usuario_list.html'  # Reemplaza 'usuario_list.html' con el nombre de tu plantilla para mostrar la lista de usuarios
