@@ -6,8 +6,8 @@
 <body>
     <h1>Lista de Usuarios</h1>
     <ul>
-        {% for usuario in usuarios %}
-            <li>{{ usuario.nombre }} - {{ usuario.email }}</li>
+        {% for usuario in object_list %}
+            <li>{{ usuario.nombre }} - {{ usuario.correo_electronico }}</li>
         {% endfor %}
     </ul>
 </body>
